@@ -95,7 +95,7 @@ Output: [3, 10]
 
 ```Python
 Input: {'a': 'abc', 'b': 'def', 'c': 'ghi'}
-Output: {0: "Bukhara", 1: "Khiva", 2: "Namangan", 3: "Samarkand", 4: "Tashkent"}
+Output: 9
 
 ```
 
