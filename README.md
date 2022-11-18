@@ -18,6 +18,9 @@ Input: {'a': 1, 'b': 2, 'c': 3}
 Output: 6
 
 ```
+**Constraints:**
+
+  - 0 <= len(data) <= 10^5
 
 ## sum_even_values
 
@@ -30,6 +33,10 @@ Input: {'a': 1, 'b': 2, 'c': 3}
 Output: 2
 
 ```
+
+**Constraints:**
+
+  - 0 <= len(data) <= 10^5
 
 ## sum_float_values
 
@@ -45,7 +52,7 @@ Output: 5.5
 
 **Constraints:**
 
-  - len(key) == len(value)
+  - 0 <= len(data) <= 10^5
 
 ## find_max_value
 
@@ -61,7 +68,7 @@ Output: 3
 
 **Constraints:**
 
-  - 0 <= len(txt) <= 10^5
+  - 0 <= len(data) <= 10^5
 
 ## find_int_keys
 
@@ -77,7 +84,8 @@ Output: [3, 10]
 
 **Constraints:**
 
-  - 0 <= len(people) <= 10^5
+  - 0 <= len(data) <= 10^5
+
 
 ## find_length_of_values
 
@@ -100,7 +108,7 @@ Output: 30
 ```
 **Constraints:**
 
-  - 0 <= len(cities) <= 10^5
+  - 0 <= len(data) <= 10^5
 
 # Warning
 - don't copy other solutions or any solution
