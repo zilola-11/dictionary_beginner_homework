@@ -162,28 +162,30 @@ Output: 'John'
 **Example 1:**
 
 ```Python
-Input: [{'name': 'John', 'age': 27}, {'name': 'Mary', 'age': 42}]
+Input: ([{'name': 'John', 'age': 27},{'name':'Mary', 'age': 42}],27)
 Output: 1
 
 ```
 **Constraints:**
 
   - 0 <= len(data) <= 10^5
+  - 0 <= age <= 10^5
 
 ## get_user_country
 
-  Return the number of users with a given age.
+  Return the country of a user with a given name.
 
 **Example 1:**
 
 ```Python
-Input: [{'name': 'John', 'country': 'USA'}, {'name': 'Mary', 'country': 'UK'}]
+Input: ([{'name': 'John', 'country': 'USA'}, {'name': 'Mary', 'country': 'UK'}],"John")
 Output: 'USA'
 
 ```
 **Constraints:**
 
   - 0 <= len(data) <= 10^5
+  - 0 <= len(name) <= 10^5
 
 ## get_user_names
 
@@ -192,13 +194,14 @@ Output: 'USA'
 **Example 1:**
 
 ```Python
-Input: [{'name': 'John', 'country': 'USA'}, {'name': 'Mary', 'country': 'UK'}]
-Output: ["John","Mary"]
+Input: ([{'name': 'John', 'country': 'USA'}, {'name': 'Mary', 'country': 'UK'}],"USA")
+Output: ["John"]
 
 ```
 **Constraints:**
 
   - 0 <= len(data) <= 10^5
+  - 0 <= len(name) <= 10^5
 
 ## get_user_names_with_age
 
@@ -207,13 +210,14 @@ Output: ["John","Mary"]
 **Example 1:**
 
 ```Python
-Input: [{'name': 'John', 'country': 'USA'}, {'name': 'Mary', 'country': 'UK'}]
-Output: ["John","Mary"]
+Input: ([{'name': 'John', 'age': 27}, {'name': 'Mary', 'age': 42}],27)
+Output: ["John"]
 
 ```
 **Constraints:**
 
   - 0 <= len(data) <= 10^5
+  - 0 <= len(name) <= 10^5
 
 ## get_country_with_least_users
 

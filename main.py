@@ -27,7 +27,6 @@
 # >>> get_user_country(users, 'John')
 # 'USA'
 
-
 # Example
 # users = [{'name': 'John', 'country': 'USA'}, {'name': 'Mary', 'country': 'UK'}]
 # >>> get_user_names(users, 'USA')
