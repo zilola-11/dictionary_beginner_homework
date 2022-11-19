@@ -110,6 +110,156 @@ Output: 30
 
   - 0 <= len(data) <= 10^5
 
+## sum_age_values
+
+  Return the sum of all age values in a dictionary.
+
+**Example 1:**
+
+```Python
+Input: [{'name': 'John', 'age': 27}, {'name': 'Mary', 'age': 42}]
+Output: 69
+
+```
+**Constraints:**
+
+  - 0 <= len(data) <= 10^5
+
+## get_max_age_user_name
+
+  Return the name of the user with the maximum age in a dictionary.
+
+**Example 1:**
+
+```Python
+Input: [{'name': 'John', 'age': 27}, {'name': 'Mary', 'age': 42}]
+Output: 'Mary'
+
+```
+**Constraints:**
+
+  - 0 <= len(data) <= 10^5
+
+## get_min_age_user_name
+
+  Return the name of the user with the minimum age in a dictionary.
+
+**Example 1:**
+
+```Python
+Input: [{'name': 'John', 'age': 27}, {'name': 'Mary', 'age': 42}]
+Output: 'John'
+
+```
+**Constraints:**
+
+  - 0 <= len(data) <= 10^5
+
+## count_users_with_age
+
+  Return the number of users with a given age.
+
+**Example 1:**
+
+```Python
+Input: [{'name': 'John', 'age': 27}, {'name': 'Mary', 'age': 42}]
+Output: 1
+
+```
+**Constraints:**
+
+  - 0 <= len(data) <= 10^5
+
+## get_user_country
+
+  Return the number of users with a given age.
+
+**Example 1:**
+
+```Python
+Input: [{'name': 'John', 'country': 'USA'}, {'name': 'Mary', 'country': 'UK'}]
+Output: 'USA'
+
+```
+**Constraints:**
+
+  - 0 <= len(data) <= 10^5
+
+## get_user_names
+
+  Return a list of users with a given country
+
+**Example 1:**
+
+```Python
+Input: [{'name': 'John', 'country': 'USA'}, {'name': 'Mary', 'country': 'UK'}]
+Output: ["John","Mary"]
+
+```
+**Constraints:**
+
+  - 0 <= len(data) <= 10^5
+
+## get_user_names_with_age
+
+  Return a list of users with a given age
+
+**Example 1:**
+
+```Python
+Input: [{'name': 'John', 'country': 'USA'}, {'name': 'Mary', 'country': 'UK'}]
+Output: ["John","Mary"]
+
+```
+**Constraints:**
+
+  - 0 <= len(data) <= 10^5
+
+## get_country_with_least_users
+
+  Return the country with the least users
+
+**Example 1:**
+
+```Python
+Input: [{'name': 'John', 'country': 'USA'}, {'name': 'Mary', 'country': 'UK'}]
+Output: 'USA'
+
+```
+**Constraints:**
+
+  - 0 <= len(data) <= 10^5
+
+## get_country_with_most_users_with_age
+
+  Return the country with the most users with a given age
+
+**Example 1:**
+
+```Python
+Input: [{'name': 'John', 'country': 'USA', 'age': 27}, {'name': 'Mary', 'country': 'UK', 'age': 42}]
+Output: 'USA'
+
+```
+**Constraints:**
+
+  - 0 <= len(data) <= 10^5
+
+## get_user_names_with_age
+
+  Return a list of users with a given age.
+
+**Example 1:**
+
+```Python
+Input: [{'name': 'John', 'age': 27}, {'name': 'Mary', 'age': 42}]
+Output: 'USA'
+
+```
+**Constraints:**
+
+  - 0 <= len(data) <= 10^5
+
 # Warning
 - don't copy other solutions or any solution
 - don't remove comments
