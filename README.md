@@ -162,7 +162,7 @@ Output: 'John'
 **Example 1:**
 
 ```Python
-Input: ([{'name': 'John', 'age': 27},{'name':'Mary', 'age': 42}],27)
+Input: ([{'name': 'John', 'age': 27},{'name':'Mary', 'age': 42}],,27)
 Output: 1
 
 ```
@@ -227,7 +227,7 @@ Output: ["John"]
 
 ```Python
 Input: [{'name': 'John', 'country': 'USA'}, {'name': 'Mary', 'country': 'UK'}]
-Output: 'USA'
+Output: 'UK'
 
 ```
 **Constraints:**
@@ -241,7 +241,7 @@ Output: 'USA'
 **Example 1:**
 
 ```Python
-Input: [{'name': 'John', 'country': 'USA', 'age': 27}, {'name': 'Mary', 'country': 'UK', 'age': 42}]
+Input: ([{'name': 'John', 'country': 'USA', 'age': 27}, {'name': 'Mary', 'country': 'UK', 'age': 42}],27)
 Output: 'USA'
 
 ```
@@ -251,13 +251,92 @@ Output: 'USA'
 
 ## get_user_names_with_age
 
-  Return a list of users with a given age.
+  Return a list of users with a given age
 
 **Example 1:**
 
 ```Python
-Input: [{'name': 'John', 'age': 27}, {'name': 'Mary', 'age': 42}]
-Output: 'USA'
+Input: ([{'name': 'John', 'age': 27}, {'name': 'Mary', 'age': 42}],27)
+Output: ['John']
+
+```
+**Constraints:**
+
+  - 0 <= len(data) <= 10^5
+
+## get_user_names_with_age_range
+
+  Return a list of users with a given age range
+
+**Example 1:**
+
+```Python
+Input: ([{'name': 'John', 'age': 27}, {'name': 'Mary', 'age': 42}],20,30)
+Output: ['John']
+
+```
+**Constraints:**
+
+  - 0 <= len(data) <= 10^5
+  - 0 <= max_age <= 10^5
+  - 0 <= min_age <= 10^5
+
+## get_user_names_with_age_range_and_country
+
+  Return a list of users with a given age range and country
+
+**Example 1:**
+
+```Python
+Input: ([{'name': 'John', 'age': 27}, {'name': 'Mary', 'age': 42}],20,30,"USA")
+Output: ['John']
+
+```
+**Constraints:**
+
+  - 0 <= len(data) <= 10^5
+  - 0 <= max_age <= 10^5
+  - 0 <= min_age <= 10^5
+  - 0 <= len(country) <= 10^5
+
+## count_jobs
+
+  Return the number of users with a given job
+
+**Example 1:**
+
+```Python
+Input: [{'name': 'John', 'job': 'Developer'}, {'name': 'Mary', 'job': 'Developer'}]
+Output: 2
+
+```
+**Constraints:**
+
+  - 0 <= len(data) <= 10^5
+
+## get_country_with_most_users
+
+  Return the country with the most users.
+
+**Example 1:**
+
+```Python
+Input:[{'name': 'John', 'country': 'USA'}, {'name': 'Mary', 'country': 'UK'}]
+Output: "USA"
+
+```
+**Constraints:**
+
+  - 0 <= len(data) <= 10^5
+## get_country_with_most_users
+
+  Return the country with the most users.
+
+**Example 1:**
+
+```Python
+Input:[{'name': 'John', 'country': 'USA'}, {'name': 'Mary', 'country': 'UK'}]
+Output: "USA"
 
 ```
 **Constraints:**
