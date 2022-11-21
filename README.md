@@ -14,13 +14,14 @@ Automated grading of homework assignments and tests
 **Example 1:**
 
 ```Python
-Input: [{'name': 'John', 'job': 'Developer'}, {'name': 'Mary', 'job': 'Developer'}]
+Input: ([{'name': 'John', 'job': 'Developer'}, {'name': 'Mary', 'job': 'Developer'}],"Developer")
 Output: 2
 
 ```
 **Constraints:**
 
   - 0 <= len(data) <= 10^5
+  - 0 <= len(job) <= 10^5
 
 ## count_users_with_age
 
@@ -29,7 +30,7 @@ Output: 2
 **Example 1:**
 
 ```Python
-Input: ([{'name': 'John', 'age': 27},{'name':'Mary', 'age': 42}],,27)
+Input: ([{'name': 'John', 'age': 27},{'name':'Mary', 'age': 42}],27)
 Output: 1
 
 ```
