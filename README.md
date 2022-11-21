@@ -21,7 +21,7 @@ Output: 2
 **Constraints:**
 
   - 0 <= len(data) <= 10^5
-  - 0 <= len(job) <= 10^5
+  - 0 <= len(data) <= 10^5
 
 ## count_users_with_age
 
@@ -89,6 +89,7 @@ Input: {1:'a', 2:'b', 3: 'c'}
 Output: 3
 
 ```
+  - 0 <= len(data) <= 10^5
 
 ## find_max_value
 
