@@ -21,8 +21,8 @@ Output: 2
 **Example 2:**
 
 ```Python
-Input: ([{'name': 'John', 'job': 'Developer'}, {'name': 'Mary', 'job': 'Developer'},{'name': 'Ann', 'job': 'Teacher'}],"Teacher")
-Output: 1
+Input: ([{'name': 'John', 'job': 'Barber'}, {'name': 'Mary', 'job': 'Developer'},{'name': 'Ann', 'job': 'Teacher'}],"Student")
+Output: 0
 
 ```
 **Constraints:**
