@@ -83,3 +83,39 @@ Output: 0
 
 ```
 """
+
+## find_max_key
+
+"""
+**Example 1:**
+
+```Python
+Input: {1:'a', 2:'b', 3: 'c'}
+Output: 3
+
+```
+Example 2:
+
+Python
+Input: {1.4:'a', 7.8:'b', 4: 'c'}
+Output: 7.8
+
+```
+**Example 3:**
+
+```Python
+Input: {0:'a', -1:'b', 2: 'c'}
+Output: 2
+"""
+## find_max_value
+"""
+**Example 1:**
+
+```Python
+Input: {'a': 1, 'b': 2, "c" : 3}
+Output: 3
+
+```
+```
+
+"""

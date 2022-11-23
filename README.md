@@ -107,6 +107,13 @@ Input: {1:'a', 2:'b', 3: 'c'}
 Output: 3
 
 ```
+**Example 2:**
+
+```Python
+Input: {1.4:'a', 7.8:'b', 4: 'c'}
+Output: 7.8
+
+```
   - 0 <= len(data) <= 10^5
 
 ## find_max_value
