@@ -33,5 +33,53 @@ Input: ([{'name': 'John', 'age': 35},{'name':'Mary', 'age': 20}],38)
 Output: 0
 
 ```
+"""
+## find_int_keys
+"""
+**Example 1:**
 
+```Python
+Input: {'a': 1, 3: 2, 'c': 3,10:'a'}
+Output: [3, 10]
+
+```
+**Example 2:**
+
+```Python
+Input: {"x": "23", "3": "y", "z": "5", 7:'a'}
+Output: [7]
+
+```
+**Example 3:**
+
+```Python
+Input: {"a": 1, "b": 2, "c": 3, "d": 4, "e": 5}
+Output: []
+
+```
+"""
+## find_length_of_values
+"""
+**Example 1:**
+
+```Python
+Input: {'a': 'abc', 'b': 'def', 'c': 'ghi'}
+Output: 9
+
+```
+
+**Example 2:**
+
+```Python
+Input: {1: "Khiva", 2: "Namangan", 3: "Samarkand", 4: "Tashkent"}
+Output: 30
+
+```
+**Example 3:**
+
+```Python
+Input: {1: "", 2: "", 3: "", 4: ""}
+Output: 0
+
+```
 """
