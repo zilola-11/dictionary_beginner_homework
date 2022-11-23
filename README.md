@@ -62,7 +62,13 @@ Input: {'a': 1, 3: 2, 'c': 3,10:'a'}
 Output: [3, 10]
 
 ```
+**Example 2:**
 
+```Python
+Input: {"x": "23", "3": "y", "z": "5", 7:'a'}
+Output: [7]
+
+```
 **Constraints:**
 
   - 0 <= len(data) <= 10^5

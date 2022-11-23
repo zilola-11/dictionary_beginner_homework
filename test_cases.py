@@ -24,8 +24,8 @@ Output: 1
 **Example 1:**
 
 ```Python
-Input: ([{'name': 'John', 'age': 27},{'name':'Mary', 'age': 42}],27)
-Output: 1
+Input: ([{'name': 'John', 'age': 27},{'name':'Mary', 'age': 42},{'name':'Ann', 'age': 27}],27)
+Output: 2
 ```
 **Example 2:**
 ```Python
