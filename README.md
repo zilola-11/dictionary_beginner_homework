@@ -9,7 +9,7 @@ Automated grading of homework assignments and tests
 # Problems
 ## count_jobs
 
-  Return the number of users with a given job
+  Return the number of users with a given job.
 
 **Example 1:**
 
@@ -26,9 +26,8 @@ Output: 0
 
 ```
 **Constraints:**
-
   - 0 <= len(data) <= 10^5
-  - 0 <= len(data) <= 10^5
+  - 0 <= len(job) <= 10^5
 
 ## count_users_with_age
 
@@ -39,6 +38,12 @@ Output: 0
 ```Python
 Input: ([{'name': 'John', 'age': 27},{'name':'Mary', 'age': 42}],27)
 Output: 1
+```
+**Example 2:**
+
+```Python
+Input: ([{'name': 'John', 'age': 35},{'name':'Mary', 'age': 20}],38)
+Output: 0
 
 ```
 **Constraints:**
