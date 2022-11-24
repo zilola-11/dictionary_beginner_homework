@@ -149,10 +149,17 @@ Input: [{'name': 'John', 'country': 'USA'}, {'name': 'Mary', 'country': 'UK'}]
 Output: 'UK'
 
 ```
+**Example 1:**
+
+```Python
+Input: [{'name': 'John', 'country': 'USA'}, {'name': 'Mary', 'country': 'UK'}]
+Output: 'UK'
+
+```
 **Constraints:**
 
   - 0 <= len(data) <= 10^5
-  
+
 ## get_country_with_most_users
 
   Return the country with the most users.
@@ -177,6 +184,13 @@ Output: "USA"
 ```Python
 Input: [{'name': 'John', 'age': 27}, {'name': 'Mary', 'age': 42}]
 Output: 'Mary'
+
+```
+**Example 2:**
+
+```Python
+Input: [{'name': 'John', 'age': 32}, {'name': 'Mary', 'age': 18}, {'name': 'Ann', 'age': 20}, {'name': 'Ban', 'age': 29}]
+Output: 'John'
 
 ```
 **Constraints:**

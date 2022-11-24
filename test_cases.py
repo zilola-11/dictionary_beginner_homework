@@ -169,7 +169,80 @@ Output: "USA"
 
 ```Python
 Input: [{'name': 'Ann', 'country': 'USA'},{'name': 'John', 'country': 'USA'}, {'name': 'Mary', 'country': 'UK'},{'name': 'Henry', 'country': 'UK'},{'name': 'Sam', 'country': 'UK'},{'name': 'Kevin', 'country': 'UK'},{'name': 'Dustin', 'country': 'UK'},{'name': 'Sally', 'country': 'UZ'}]
+Output: "UK"
+
+```
+"""
+## get_max_age_user_name
+"""
+**Example 1:**
+
+```Python
+Input: [{'name': 'John', 'age': 27}, {'name': 'Mary', 'age': 42}]
+Output: 'Mary'
+
+```
+**Example 2:**
+
+```Python
+Input: [{'name': 'John', 'age': 32}, {'name': 'Mary', 'age': 18}, {'name': 'Ann', 'age': 20}, {'name': 'Ban', 'age': 29}]
+Output: 'John'
+
+```
+**Example 3:**
+
+```Python
+Input: [{'name': 'John', 'age': 25}, {'name': 'Mary', 'age': 25}]
+Output: 'John'
+
+```
+"""
+## get_min_age_user_name
+"""
+**Example 1:**
+
+```Python
+Input: [{'name': 'John', 'age': 27}, {'name': 'Mary', 'age': 42}]
+Output: 'John'
+
+```
+**Example 2:**
+
+```Python
+Input: [{'name': 'John', 'age': 32}, {'name': 'Mary', 'age': 18}, {'name': 'Ann', 'age': 20}, {'name': 'Ban', 'age': 29}]
+Output: 'Mary'
+
+```
+**Example 3:**
+
+```Python
+Input: [{'name': 'John', 'age': 25}, {'name': 'Mary', 'age': 25}]
+Output: 'John'
+
+```
+"""
+
+## get_user_country
+"""
+**Example 1:**
+
+```Python
+Input: ([{'name': 'John', 'country': 'USA'}, {'name': 'Mary', 'country': 'UK'}],"John")
 Output: 'USA'
+
+```
+**Example 2:**
+
+```Python
+Input: (,"Ann")
+Output: 'Mary'
+
+```
+**Example 3:**
+
+```Python
+Input: ([{'name': 'Ann', 'country': 'USA'},{'name': 'John', 'country': 'USA'}, {'name': 'Mary', 'country': 'UK'},{'name': 'Henry', 'country': 'UK'},{'name': 'Sam', 'country': 'MEX'},{'name': 'Kevin', 'country': 'RUS'},{'name': 'Dustin', 'country': 'GER'},{'name': 'Anvar', 'country': 'UZ'}],"Anvar")
+Output: 'UZ'
 
 ```
 """
