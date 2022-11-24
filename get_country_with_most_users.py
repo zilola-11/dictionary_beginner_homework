@@ -7,4 +7,4 @@ def get_country_with_most_users(data:list) -> str:
     Returns:
         str: The country with the most users
     """
-    pass
+    return 0

@@ -94,9 +94,9 @@ Input: {1:'a', 2:'b', 3: 'c'}
 Output: 3
 
 ```
-Example 2:
+**Example 2:**
 
-Python
+```Python
 Input: {1.4:'a', 7.8:'b', 4: 'c'}
 Output: 7.8
 
@@ -116,6 +116,60 @@ Input: {'a': 1, 'b': 2, "c" : 3}
 Output: 3
 
 ```
-```
+**Example 2:**
 
+```Python
+Input: {'a': -4, 'b': -10, "c" : 0}
+Output: 0
+```
+**Example 3:**
+
+```Python
+Input: {'a': -2.5, 'b': 3.2, "c" : 7.1}
+Output: 7.1
+```
+"""
+
+## get_country_with_least_users
+"""
+**Example 1:**
+
+```Python
+Input: [{'name': 'Ann', 'country': 'USA'},{'name': 'John', 'country': 'USA'}, {'name': 'Mary', 'country': 'UK'}]
+Output: 'USA'
+
+```
+**Example 2:**
+
+```Python
+Input: [{'name': 'Ann', 'country': 'USA'},{'name': 'John', 'country': 'UK'}]
+Output: 'USA'
+
+```
+**Example 3:**
+
+```Python
+Input: [{'name': 'Ann', 'country': 'USA'},{'name': 'John', 'country': 'USA'}, {'name': 'Mary', 'country': 'UK'},{'name': 'Henry', 'country': 'UK'},{'name': 'Sam', 'country': 'UK'},{'name': 'Kevin', 'country': 'UK'},{'name': 'Dustin', 'country': 'UK'},{'name': 'Sally', 'country': 'UZ'}]
+Output: 'UZ'
+
+```
+"""
+
+## get_country_with_most_users
+"""
+**Example 1:**
+
+```Python
+Input:[{'name': 'John', 'country': 'USA'},{'name': 'Walker', 'country': 'USA'}, {'name': 'Mary', 'country': 'UK'}]
+Output: "USA"
+
+```
+```
+**Example 2:**
+
+```Python
+Input: [{'name': 'Ann', 'country': 'USA'},{'name': 'John', 'country': 'USA'}, {'name': 'Mary', 'country': 'UK'},{'name': 'Henry', 'country': 'UK'},{'name': 'Sam', 'country': 'UK'},{'name': 'Kevin', 'country': 'UK'},{'name': 'Dustin', 'country': 'UK'},{'name': 'Sally', 'country': 'UZ'}]
+Output: 'USA'
+
+```
 """

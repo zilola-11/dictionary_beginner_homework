@@ -127,7 +127,13 @@ Input: {'a': 1, 'b': 2, "c" : 3}
 Output: 3
 
 ```
+**Example 2:**
 
+```Python
+Input: {'a': -4, 'b': -10, "c" : 0}
+Output: 0
+
+```
 **Constraints:**
 
   - 0 <= len(data) <= 10^5
@@ -146,22 +152,7 @@ Output: 'UK'
 **Constraints:**
 
   - 0 <= len(data) <= 10^5
-
-## get_country_with_most_users_with_age
-
-  Return the country with the most users with a given age
-
-**Example 1:**
-
-```Python
-Input: ([{'name': 'John', 'country': 'USA', 'age': 27}, {'name': 'Mary', 'country': 'UK', 'age': 42}],27)
-Output: 'USA'
-
-```
-**Constraints:**
-
-  - 0 <= len(data) <= 10^5
-
+  
 ## get_country_with_most_users
 
   Return the country with the most users.
