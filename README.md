@@ -14,7 +14,20 @@ Automated grading of homework assignments and tests
 **Example 1:**
 
 ```Python
-Input: ([{'name': 'John', 'job': 'Developer'}, {'name': 'Mary', 'job': 'Developer'}],"Developer")
+Input: 
+data=[
+  {
+    'name': 'John', 
+    'job': 'Developer'
+  }, 
+  {
+    'name': 'Mary', 
+    'job': 'Developer'
+  }
+  ]
+
+job = 'Developer'
+  
 Output: 2
 
 ```
