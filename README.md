@@ -208,6 +208,13 @@ Input: [{'name': 'John', 'age': 27}, {'name': 'Mary', 'age': 42}]
 Output: 'John'
 
 ```
+**Example 2:**
+
+```Python
+Input: [{'name': 'John', 'age': 32}, {'name': 'Mary', 'age': 18}, {'name': 'Ann', 'age': 20}, {'name': 'Ban', 'age': 29}]
+Output: 'Mary'
+
+```
 **Constraints:**
 
   - 0 <= len(data) <= 10^5
@@ -221,6 +228,12 @@ Output: 'John'
 ```Python
 Input: ([{'name': 'John', 'country': 'USA'}, {'name': 'Mary', 'country': 'UK'}],"John")
 Output: 'USA'
+```
+**Example 2:**
+
+```Python
+Input: ([{'name': 'John', 'country': 'USA'}, {'name': 'Mary', 'country': 'UK'},{'name': 'Henry', 'country': 'UK'},{'name': 'Sam', 'country': 'MEX'},{'name': 'Kevin', 'country': 'RUS'},{'name': 'Dustin', 'country': 'GER'}],"Henry")
+Output: 'UK'
 
 ```
 **Constraints:**

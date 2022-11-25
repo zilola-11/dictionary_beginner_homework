@@ -234,8 +234,8 @@ Output: 'USA'
 **Example 2:**
 
 ```Python
-Input: (,"Ann")
-Output: 'Mary'
+Input: ([{'name': 'John', 'country': 'USA'}, {'name': 'Mary', 'country': 'UK'},{'name': 'Henry', 'country': 'UK'},{'name': 'Sam', 'country': 'MEX'},{'name': 'Kevin', 'country': 'RUS'},{'name': 'Dustin', 'country': 'GER'}],"Henry")
+Output: 'UK'
 
 ```
 **Example 3:**
