@@ -241,24 +241,6 @@ Output: 'UK'
   - 0 <= len(data) <= 10^5
   - 0 <= len(name) <= 10^5
 
-## get_user_names_with_age_range_and_country
-
-  Return a list of users with a given age range and country
-
-**Example 1:**
-
-```Python
-Input: ([{'name': 'John', 'age': 27}, {'name': 'Mary', 'age': 42}],20,30,"USA")
-Output: ['John']
-
-```
-**Constraints:**
-
-  - 0 <= len(data) <= 10^5
-  - 0 <= max_age <= 10^5
-  - 0 <= min_age <= 10^5
-  - 0 <= len(country) <= 10^5
-
 ## get_user_names_with_age_range
 
   Return a list of users with a given age range
@@ -266,8 +248,15 @@ Output: ['John']
 **Example 1:**
 
 ```Python
-Input: ([{'name': 'John', 'age': 27}, {'name': 'Mary', 'age': 42}],20,30)
-Output: ['John']
+Input: ([{'name': 'John', 'age': 20}, {'name': 'Mary', 'age': 17},{'name': 'Ban', 'age': 23},{'name': 'John', 'age': 27}],18,25)
+Output: ['John','Ban']
+
+```
+**Example 2:**
+
+```Python
+Input: ([{'name': 'Anny', 'age': 20}, {'name': 'Mary', 'age': 30}],20,30)
+Output: ['John','Mary']
 
 ```
 **Constraints:**

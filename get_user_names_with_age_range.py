@@ -9,4 +9,4 @@ def get_user_names_with_age_range(data:list, min_age:int, max_age:int) -> list:
     Returns:
         list: A list of users with the given age range
     """
-    pass
+    return 0

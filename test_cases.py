@@ -246,3 +246,27 @@ Output: 'UZ'
 
 ```
 """
+## get_user_names_with_age_range
+"""
+**Example 1:**
+
+```Python
+Input: ([{'name': 'John', 'age': 20}, {'name': 'Mary', 'age': 17},{'name': 'Ban', 'age': 23},{'name': 'John', 'age': 27}],18,25)
+Output: ['John','Ban']
+
+```
+**Example 2:**
+
+```Python
+Input: ([{'name': 'Anny', 'age': 20}, {'name': 'Mary', 'age': 30}],20,30)
+Output: ['John','Mary']
+
+```
+**Example 3:**
+
+```Python
+Input: ([{'name': 'Anny', 'age': 20}, {'name': 'Ann', 'age': 30}, {'name': 'John', 'age': 11}, {'name': 'Mary', 'age': 27}],10,25)
+Output: ['Anny','John']
+
+```
+"""
