@@ -276,6 +276,13 @@ Input: ([{'name': 'John', 'age': 27}, {'name': 'Mary', 'age': 42}],27)
 Output: ['John']
 
 ```
+**Example 2:**
+
+```Python
+Input: ([{'name': 'John', 'age': 30}, {'name': 'Ann', 'age': 32}, {'name': 'Sam', 'age': 27}, {'name': 'Mary', 'age': 32}],32)
+Output: ['Ann','Mary']
+
+```
 **Constraints:**
 
   - 0 <= len(data) <= 10^5
@@ -292,10 +299,17 @@ Input: ([{'name': 'John', 'country': 'USA'}, {'name': 'Mary', 'country': 'UK'}],
 Output: ["John"]
 
 ```
+**Example 2:**
+
+```Python
+Input: ([{'name': 'John', 'country': 'USA'}, {'name': 'Mary', 'country': 'UK'},{'name': 'Henry', 'country': 'UK'},{'name': 'Sam', 'country': 'MEX'},{'name': 'Kevin', 'country': 'RUS'},{'name': 'Dustin', 'country': 'GER'}],'UK')
+Output: ["Mary","Henry"]
+
+```
 **Constraints:**
 
   - 0 <= len(data) <= 10^5
-  - 0 <= len(name) <= 10^5
+  - 0 <= len(country) <= 10^5
 
 ## sum_age_values
 
@@ -306,6 +320,13 @@ Output: ["John"]
 ```Python
 Input: [{'name': 'John', 'age': 27}, {'name': 'Mary', 'age': 42}]
 Output: 69
+
+```
+**Example 2:**
+
+```Python
+Input: ([{'name': 'John', 'age': 20}, {'name': 'Mary', 'age': 17},{'name': 'Ban', 'age': 23},{'name': 'John', 'age': 27}])
+Output: 87
 
 ```
 **Constraints:**
@@ -323,6 +344,13 @@ Input: {'a': 1, 'b': 2, 'c': 3}
 Output: 6
 
 ```
+**Example 2:**
+
+```Python
+Input: {1: 23, 2: 3.5, 4: 1, 6: 7, 5: 2, 7: 3}
+Output: 39.5
+
+```
 **Constraints:**
 
   - 0 <= len(data) <= 10^5
@@ -336,6 +364,13 @@ Output: 6
 ```Python
 Input: {'a': 1, 'b': 2, 'c': 3}
 Output: 2
+
+```
+**Example 2:**
+
+```Python
+Input: {1: 22, 2: 3.5, 4: 1, 6: 7, 5: 2, 7: 3}
+Output: 24
 
 ```
 
@@ -352,6 +387,13 @@ Output: 2
 ```Python
 Input: {'a': 1, 'b' : 2.5, 'c': 3.0}
 Output: 5.5
+
+```
+**Example 2:**
+
+```Python
+Input: {1: 22.4, 2: 3.5, 4: 1, 6: 7.6, 5: 2, 7: 3}
+Output: 30
 
 ```
 

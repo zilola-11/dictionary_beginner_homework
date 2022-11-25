@@ -8,4 +8,4 @@ def get_user_names(data:list, country:str) -> list:
     Returns:
         list: A list of users with the given country
     """
-    pass
+    return 0

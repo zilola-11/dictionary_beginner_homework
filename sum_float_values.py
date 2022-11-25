@@ -6,4 +6,4 @@ def sum_float_values(data: dict) -> float:
     Returns:
         float: The sum of all float values in the dictionary.
     '''
-    pass
+    return 0

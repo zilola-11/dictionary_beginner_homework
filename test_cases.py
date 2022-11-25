@@ -270,3 +270,160 @@ Output: ['Anny','John']
 
 ```
 """
+## get_user_names_with_age
+
+'''
+**Example 1:**
+
+```Python
+Input: ([{'name': 'John', 'age': 30},{'name': 'Sam', 'age': 27}, {'name': 'Mary', 'age': 42}],27)
+Output: ['Sam']
+
+```
+**Example 2:**
+
+```Python
+Input: ([{'name': 'John', 'age': 30}, {'name': 'Ann', 'age': 32}, {'name': 'Sam', 'age': 27}, {'name': 'Mary', 'age': 32}],32)
+Output: ['Ann','Mary']
+
+```
+**Example 3:**
+
+```Python
+Input: ([{'name': 'John', 'age': 20}, {'name': 'Ann', 'age': 20}, {'name': 'Sam', 'age': 20}, {'name': 'Mary', 'age': 20}],20)
+Output: ['John','Ann','Sam','Mary']
+
+```
+**Example 4:**
+
+```Python
+Input: ([{'name': 'John', 'age': 20}, {'name': 'Ann', 'age': 20}, {'name': 'Sam', 'age': 20}, {'name': 'Mary', 'age': 20}],21)
+Output: []
+
+```
+'''
+## get_user_names
+'''
+**Example 1:**
+
+```Python
+Input: ([{'name': 'John', 'country': 'USA'}, {'name': 'Mary', 'country': 'UK'}],"USA")
+Output: ["John"]
+
+```
+**Example 2:**
+
+```Python
+Input: ([{'name': 'John', 'country': 'USA'}, {'name': 'Mary', 'country': 'UK'}],"USA")
+Output: ["John"]
+
+```
+**Example 2:**
+
+```Python
+Input: ([{'name': 'John', 'country': 'USA'}, {'name': 'Mary', 'country': 'UK'},{'name': 'Henry', 'country': 'UK'},{'name': 'Sam', 'country': 'MEX'},{'name': 'Kevin', 'country': 'RUS'},{'name': 'Dustin', 'country': 'GER'}],'UK')
+Output: ["Mary","Henry"]
+
+```
+**Example 3:**
+
+```Python
+Input: ([{'name': 'Anvar', 'country': 'UZ'},{'name': 'Sardor', 'country': 'UZ'}, {'name': 'Mary', 'country': 'UK'},{'name': 'Henry', 'country': 'UK'},{'name': 'Sam', 'country': 'MEX'},{'name': 'Kevin', 'country': 'RUS'},{'name': 'Dustin', 'country': 'GER'},{'name': 'Ikrom', 'country': 'UZ'}],"UZ")
+Output: ['Anvar','Sardor','Ikrom']
+
+```
+'''
+## sum_age_values
+
+'''
+**Example 1:**
+
+```Python
+Input: [{'name': 'John', 'age': 27}, {'name': 'Mary', 'age': 42}]
+Output: 69
+
+```
+**Example 2:**
+
+```Python
+Input: ([{'name': 'John', 'age': 20}, {'name': 'Mary', 'age': 17},{'name': 'Ban', 'age': 23},{'name': 'John', 'age': 27}])
+Output: 87
+
+```
+
+**Example 3:**
+
+```Python
+Input: ([{'name': 'John', 'age': 25}, {'name': 'Ann', 'age': 20}, {'name': 'Sam', 'age': 25}, {'name': 'Mary', 'age': 20}])
+Output: 90
+
+
+```
+'''
+
+## sum_dict_values
+'''
+**Example 1:**
+
+```Python
+Input: {'a': 1, 'b': 2, 'c': 3}
+Output: 6
+
+```
+**Example 2:**
+
+```Python
+Input: {1: 23, 2: 3.5, 4: 1, 6: 7, 5: 2, 7: 3}
+Output: 39.5
+
+```
+'''
+
+## sum_even_values
+''' 
+**Example 1:**
+
+```Python
+Input: {'a': 1, 'b': 2, 'c': 3}
+Output: 2
+
+```
+**Example 2:**
+
+```Python
+Input: {'a': 0, 'b': 8, 'c': 3}
+Output: 8
+
+```
+**Example 3:**
+
+```Python
+Input: {1: 22, 2: 3.5, 4: 1, 6: 7, 5: 2, 7: 3}
+Output: 24
+
+```
+'''
+## sum_float_values
+''' 
+**Example 1:**
+
+```Python
+Input: {'a': 1, 'b': 2, 'c': 3}
+Output: 0
+
+```
+**Example 2:**
+
+```Python
+Input: {'a': 0.5, 'b': 7.5, 'c': 3}
+Output: 8
+
+```
+**Example 3:**
+
+```Python
+Input: {1: 22.4, 2: 3.5, 4: 1, 6: 7.6, 5: 2, 7: 3}
+Output: 30
+
+```
+'''
