@@ -593,16 +593,20 @@ Output: ['John']
 ```Python
 Input: data = [
 {
-  'name': 'John', 'age': 30
+  'name': 'John', 
+  'age': 30
 }, 
 {
-  'name': 'Ann', 'age': 32
+  'name': 'Ann', 
+  'age': 32
 }, 
 {
-  'name': 'Sam', 'age': 27
+  'name': 'Sam', 
+  'age': 27
 }, 
 {
-  'name': 'Mary', 'age': 32
+  'name': 'Mary', 
+  'age': 32
 }
 ]
 age = 32
@@ -640,7 +644,8 @@ Output: ["John"]
 ```Python
 Input: data = [
 {
-  'name': 'John', 'country': 'USA'
+  'name': 'John', 
+  'country': 'USA'
 }, 
 {
   'name': 'Mary', 
