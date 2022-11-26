@@ -824,7 +824,7 @@ Input: data =
   5: 2, 
   7: 3
 }
-Output: 30.0
+Output: 33.5
 
 ```
 
