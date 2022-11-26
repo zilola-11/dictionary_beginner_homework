@@ -34,7 +34,22 @@ Output: 2
 **Example 2:**
 
 ```Python
-Input: ([{'name': 'John', 'job': 'Barber'}, {'name': 'Mary', 'job': 'Developer'},{'name': 'Ann', 'job': 'Teacher'}],"Student")
+Input: 
+data = [
+  {
+    'name': 'John',
+    'job': 'Barber'
+  }, 
+  {
+    'name': 'Mary',
+    'job': 'Developer'
+  },
+  {
+    'name': 'Ann', 
+    'job': 'Teacher'
+  }
+  ]
+job = "Student"
 Output: 0
 
 ```
@@ -49,13 +64,37 @@ Output: 0
 **Example 1:**
 
 ```Python
-Input: ([{'name': 'John', 'age': 27},{'name':'Mary', 'age': 42},{'name':'Ann', 'age': 27}],27)
+Input: data = [
+  {
+    'name': 'John',
+    'age': 27
+  },
+  {
+    'name':'Mary', 
+    'age': 42
+  },
+  {
+    'name':'Ann',
+    'age': 27
+  }
+  ]
+age = 27
 Output: 2
 ```
 **Example 2:**
 
 ```Python
-Input: ([{'name': 'John', 'age': 35},{'name':'Mary', 'age': 20}],38)
+Input: data = [
+  {
+    'name': 'John', 
+    'age': 35
+  },
+  {
+    'name':'Mary', 
+    'age': 20
+  }
+  ]
+age = 38
 Output: 0
 
 ```
@@ -71,14 +110,26 @@ Output: 0
 **Example 1:**
 
 ```Python
-Input: {'a': 1, 3: 2, 'c': 3,10:'a'}
+Input: data = 
+{
+  'a': 1, 
+  3 : 2, 
+  'c': 3,
+  10:'a'
+}
 Output: [3, 10]
 
 ```
 **Example 2:**
 
 ```Python
-Input: {"x": "23", "3": "y", "z": "5", 7:'a'}
+Input: data = 
+{
+  "x": "23",
+  "3": "y", 
+  "z": "5", 
+  7:'a'
+}
 Output: [7]
 
 ```
@@ -93,7 +144,12 @@ Output: [7]
 **Example 1:**
 
 ```Python
-Input: {'a': 'abc', 'b': 'def', 'c': 'ghi'}
+Input: data = 
+{
+  'a': 'abc',
+  'b': 'def', 
+  'c': 'ghi'
+}
 Output: 9
 
 ```
@@ -101,7 +157,13 @@ Output: 9
 **Example 2:**
 
 ```Python
-Input: {1: "Khiva", 2: "Namangan", 3: "Samarkand", 4: "Tashkent"}
+Input: data = 
+{
+  1 : "Khiva", 
+  2 : "Namangan", 
+  3 : "Samarkand", 
+  4 : "Tashkent"
+}
 Output: 30
 
 ```
@@ -116,14 +178,23 @@ Output: 30
 **Example 1:**
 
 ```Python
-Input: {1:'a', 2:'b', 3: 'c'}
+Input: data = 
+{
+  1: 'a', 
+  2: 'b', 
+  3: 'c'
+}
 Output: 3
 
 ```
 **Example 2:**
 
 ```Python
-Input: {1.4:'a', 7.8:'b', 4: 'c'}
+Input: data = 
+{
+  1.4 :'a', 
+  7.8 :'b', 
+  4 : 'c'}
 Output: 7.8
 
 ```
@@ -136,14 +207,24 @@ Output: 7.8
 **Example 1:**
 
 ```Python
-Input: {'a': 1, 'b': 2, "c" : 3}
+Input: data = 
+{
+  'a' : 1, 
+  'b' : 2, 
+  'c' : 3
+}
 Output: 3
 
 ```
 **Example 2:**
 
 ```Python
-Input: {'a': -4, 'b': -10, "c" : 0}
+Input: data  = 
+{
+  'a' : -4, 
+  'b' : -10, 
+  'c' : 0
+}
 Output: 0
 
 ```
@@ -158,15 +239,57 @@ Output: 0
 **Example 1:**
 
 ```Python
-Input: [{'name': 'John', 'country': 'USA'}, {'name': 'Mary', 'country': 'UK'}]
-Output: 'UK'
+Input: data = [
+{
+  'name': 'John',
+  'country': 'USA'
+},
+{
+  'name': 'Mary',
+  'country': 'UK'
+}
+]
+Output: 'USA'
 
 ```
-**Example 1:**
+**Example 2:**
 
 ```Python
-Input: [{'name': 'John', 'country': 'USA'}, {'name': 'Mary', 'country': 'UK'}]
-Output: 'UK'
+Input: data = [
+{
+  'name': 'Ann', 
+  'country': 'USA'
+},
+{
+  'name': 'John', 
+  'country': 'USA'
+}, 
+{
+  'name': 'Mary', 
+  'country': 'UK'
+},
+{
+  'name': 'Henry', 
+  'country': 'UK'
+},
+{
+  'name': 'Sam', 
+  'country': 'UK'
+},
+{
+  'name': 'Kevin', 
+  'country': 'UK'
+},
+{
+  'name': 'Dustin', 
+  'country': 'UK'
+},
+{
+  'name': 'Sally', 
+  'country': 'UZ'
+}
+]
+Output: 'UZ'
 
 ```
 **Constraints:**
@@ -180,8 +303,56 @@ Output: 'UK'
 **Example 1:**
 
 ```Python
-Input:[{'name': 'John', 'country': 'USA'}, {'name': 'Mary', 'country': 'UK'}]
+Input: data = [
+{
+  'name': 'John', 
+  'country': 'USA'
+}, 
+{
+  'name': 'Mary', 
+  'country': 'UK'
+}
+]
 Output: "USA"
+```
+**Example 2:**
+
+```Python
+Input: data  = [
+{
+  'name': 'Ann', 
+  'country': 'USA'
+},
+{
+  'name': 'John', 
+  'country': 'USA'
+}, 
+{
+  'name': 'Mary', 
+  'country': 'UK'
+},
+{
+  'name': 'Henry', 
+  'country': 'UK'
+},
+{
+  'name': 'Sam', 
+  'country': 'UK'
+},
+{
+  'name': 'Kevin', 
+  'country': 'UK'
+},
+{
+  'name': 'Dustin', 
+  'country': 'UK'
+},
+{
+  'name': 'Sally', 
+  'country': 'UZ'
+}
+]
+Output: "UK"
 
 ```
 **Constraints:**
@@ -195,14 +366,40 @@ Output: "USA"
 **Example 1:**
 
 ```Python
-Input: [{'name': 'John', 'age': 27}, {'name': 'Mary', 'age': 42}]
+Input: data = [
+{
+  'name': 'John', 
+  'age': 27
+}, 
+{
+  'name': 'Mary', 
+  'age': 42
+}
+]
 Output: 'Mary'
 
 ```
 **Example 2:**
 
 ```Python
-Input: [{'name': 'John', 'age': 32}, {'name': 'Mary', 'age': 18}, {'name': 'Ann', 'age': 20}, {'name': 'Ban', 'age': 29}]
+Input: data = [
+{
+  'name': 'John', 
+  'age': 32
+}, 
+{
+  'name': 'Mary', 
+  'age': 18
+}, 
+{
+  'name': 'Ann', 
+  'age': 20
+}, 
+{
+  'name': 'Ban', 
+  'age': 29
+}
+]
 Output: 'John'
 
 ```
@@ -217,14 +414,40 @@ Output: 'John'
 **Example 1:**
 
 ```Python
-Input: [{'name': 'John', 'age': 27}, {'name': 'Mary', 'age': 42}]
+Input: data = [
+{
+  'name': 'John', 
+  'age': 27
+}, 
+{
+  'name': 'Mary', 
+  'age': 42
+}
+]
 Output: 'John'
 
 ```
 **Example 2:**
 
 ```Python
-Input: [{'name': 'John', 'age': 32}, {'name': 'Mary', 'age': 18}, {'name': 'Ann', 'age': 20}, {'name': 'Ban', 'age': 29}]
+Input: data = [
+{
+  'name': 'John', 
+  'age': 32
+}, 
+{
+  'name': 'Mary', 
+  'age': 18
+}, 
+{
+  'name': 'Ann', 
+  'age': 20
+},
+{
+  'name': 'Ban', 
+  'age': 29
+}
+]
 Output: 'Mary'
 
 ```
@@ -239,13 +462,49 @@ Output: 'Mary'
 **Example 1:**
 
 ```Python
-Input: ([{'name': 'John', 'country': 'USA'}, {'name': 'Mary', 'country': 'UK'}],"John")
+Input: data = [
+{
+  'name': 'John', 
+  'country': 'USA'
+}, 
+{
+  'name': 'Mary', 
+  'country': 'UK'
+}
+]
+name = "John"
 Output: 'USA'
 ```
 **Example 2:**
 
 ```Python
-Input: ([{'name': 'John', 'country': 'USA'}, {'name': 'Mary', 'country': 'UK'},{'name': 'Henry', 'country': 'UK'},{'name': 'Sam', 'country': 'MEX'},{'name': 'Kevin', 'country': 'RUS'},{'name': 'Dustin', 'country': 'GER'}],"Henry")
+Input: data = [
+{
+  'name': 'John', 
+  'country': 'USA'
+}, 
+{
+  'name': 'Mary', 
+  'country': 'UK'
+},
+{
+  'name': 'Henry', 
+  'country': 'UK'
+},
+{
+  'name': 'Sam', 
+  'country': 'MEX'
+},
+{
+  'name': 'Kevin', 
+  'country': 'RUS'
+},
+{
+  'name': 'Dustin', 
+  'country': 'GER'
+}
+]
+name = "Henry"
 Output: 'UK'
 
 ```
@@ -261,14 +520,44 @@ Output: 'UK'
 **Example 1:**
 
 ```Python
-Input: ([{'name': 'John', 'age': 20}, {'name': 'Mary', 'age': 17},{'name': 'Ban', 'age': 23},{'name': 'John', 'age': 27}],18,25)
+Input: data = [
+{
+  'name': 'John', 
+  'age': 20
+}, 
+{
+  'name': 'Mary', 
+  'age': 17
+},
+{
+  'name': 'Ban', 
+  'age': 23
+},
+{
+  'name': 'John', 
+  'age': 27
+}
+]
+min_age = 18
+max_age = 25
 Output: ['John','Ban']
 
 ```
 **Example 2:**
 
 ```Python
-Input: ([{'name': 'Anny', 'age': 20}, {'name': 'Mary', 'age': 30}],20,30)
+Input: data = [
+{
+  'name': 'Anny', 
+  'age': 20
+}, 
+{
+  'name': 'Mary', 
+  'age': 30
+}
+]
+min_age = 20
+max_age = 30
 Output: ['John','Mary']
 
 ```
@@ -285,14 +574,38 @@ Output: ['John','Mary']
 **Example 1:**
 
 ```Python
-Input: ([{'name': 'John', 'age': 27}, {'name': 'Mary', 'age': 42}],27)
+Input: data = [
+{
+  'name': 'John', 
+  'age': 27
+}, 
+{
+  'name': 'Mary', 
+  'age': 42
+}
+]
+age = 27
 Output: ['John']
 
 ```
 **Example 2:**
 
 ```Python
-Input: ([{'name': 'John', 'age': 30}, {'name': 'Ann', 'age': 32}, {'name': 'Sam', 'age': 27}, {'name': 'Mary', 'age': 32}],32)
+Input: data = [
+{
+  'name': 'John', 'age': 30
+}, 
+{
+  'name': 'Ann', 'age': 32
+}, 
+{
+  'name': 'Sam', 'age': 27
+}, 
+{
+  'name': 'Mary', 'age': 32
+}
+]
+age = 32
 Output: ['Ann','Mary']
 
 ```
@@ -308,14 +621,49 @@ Output: ['Ann','Mary']
 **Example 1:**
 
 ```Python
-Input: ([{'name': 'John', 'country': 'USA'}, {'name': 'Mary', 'country': 'UK'}],"USA")
+Input: data = [
+{
+  'name': 'John', 
+  'country': 'USA'
+}, 
+{
+  'name': 'Mary', 
+  'country': 'UK'
+}
+]
+country = "USA"
 Output: ["John"]
 
 ```
 **Example 2:**
 
 ```Python
-Input: ([{'name': 'John', 'country': 'USA'}, {'name': 'Mary', 'country': 'UK'},{'name': 'Henry', 'country': 'UK'},{'name': 'Sam', 'country': 'MEX'},{'name': 'Kevin', 'country': 'RUS'},{'name': 'Dustin', 'country': 'GER'}],'UK')
+Input: data = [
+{
+  'name': 'John', 'country': 'USA'
+}, 
+{
+  'name': 'Mary', 
+  'country': 'UK'
+},
+{
+  'name': 'Henry', 
+  'country': 'UK'
+},
+{
+  'name': 'Sam', 
+  'country': 'MEX'
+},
+{
+  'name': 'Kevin', 
+  'country': 'RUS'
+},
+{
+  'name': 'Dustin', 
+  'country': 'GER'
+}
+]
+country = 'UK'
 Output: ["Mary","Henry"]
 
 ```
@@ -331,14 +679,40 @@ Output: ["Mary","Henry"]
 **Example 1:**
 
 ```Python
-Input: [{'name': 'John', 'age': 27}, {'name': 'Mary', 'age': 42}]
+Input: data = [
+{
+  'name': 'John', 
+  'age': 27
+}, 
+{
+  'name': 'Mary', 
+  'age': 42
+}
+]
 Output: 69
 
 ```
 **Example 2:**
 
 ```Python
-Input: ([{'name': 'John', 'age': 20}, {'name': 'Mary', 'age': 17},{'name': 'Ban', 'age': 23},{'name': 'John', 'age': 27}])
+Input: data = [
+{
+  'name': 'John', 
+  'age': 20
+}, 
+{
+  'name': 'Mary', 
+  'age': 17
+},
+{
+  'name': 'Ban', 
+  'age': 23
+},
+{
+  'name': 'John', 
+  'age': 27
+}
+]
 Output: 87
 
 ```
@@ -353,14 +727,27 @@ Output: 87
 **Example 1:**
 
 ```Python
-Input: {'a': 1, 'b': 2, 'c': 3}
+Input: data = 
+{
+  'a': 1, 
+  'b': 2, 
+  'c': 3
+}
 Output: 6
 
 ```
 **Example 2:**
 
 ```Python
-Input: {1: 23, 2: 3.5, 4: 1, 6: 7, 5: 2, 7: 3}
+Input: data = 
+{
+  1: 23, 
+  2: 3.5, 
+  4: 1, 
+  6: 7, 
+  5: 2, 
+  7: 3
+}
 Output: 39.5
 
 ```
@@ -375,14 +762,27 @@ Output: 39.5
 **Example 1:**
 
 ```Python
-Input: {'a': 1, 'b': 2, 'c': 3}
+Input: data = 
+{
+  'a': 1, 
+  'b': 2, 
+  'c': 3
+}
 Output: 2
 
 ```
 **Example 2:**
 
 ```Python
-Input: {1: 22, 2: 3.5, 4: 1, 6: 7, 5: 2, 7: 3}
+Input: data = 
+{
+  1: 22, 
+  2: 3.5, 
+  4: 1, 
+  6: 7, 
+  5: 2, 
+  7: 3
+}
 Output: 24
 
 ```
@@ -398,15 +798,28 @@ Output: 24
 **Example 1:**
 
 ```Python
-Input: {'a': 1, 'b' : 2.5, 'c': 3.0}
+Input: data = 
+{
+  'a': 1, 
+  'b' : 2.5, 
+  'c': 3.0
+}
 Output: 5.5
 
 ```
 **Example 2:**
 
 ```Python
-Input: {1: 22.4, 2: 3.5, 4: 1, 6: 7.6, 5: 2, 7: 3}
-Output: 30
+Input: data = 
+{
+  1: 22.4, 
+  2: 3.5, 
+  4: 1, 
+  6: 7.6, 
+  5: 2, 
+  7: 3
+}
+Output: 30.0
 
 ```
 
