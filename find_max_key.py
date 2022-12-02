@@ -1,4 +1,4 @@
-def find_max_key(data: dict) -> int:
+def find_max_key(data: dict):
     """
     Return the maximum int or float key in a dictionary.
     Args:
