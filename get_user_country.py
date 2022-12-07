@@ -8,4 +8,4 @@ def get_user_country(data:list, name:str) -> list:
     Returns:
         str: The country of the user with the given name
     """
-    return 0
+    return 

@@ -7,4 +7,4 @@ def get_min_age_user_name(data:list) -> str:
     Returns:
         str: The name of the user with the minimum age in the dictionary
     """
-    return 0
+    return 

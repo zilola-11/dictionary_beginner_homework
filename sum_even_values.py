@@ -6,4 +6,4 @@ def sum_even_values(data: dict) -> int:
     Returns:
         int: The sum of all even values in the dictionary
     '''
-    return 0
+    return 

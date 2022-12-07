@@ -8,4 +8,4 @@ def count_users_with_age(data:list, age:int) -> int:
     Returns:
         int: The number of users with the given age
     """
-    return 0
+    return 
