@@ -551,7 +551,7 @@ Input: data = [
 ]
 min_age = 20
 max_age = 30
-Output: ['John','Mary']
+Output: ['Anny','Mary']
 
 ```
 **Constraints:**
